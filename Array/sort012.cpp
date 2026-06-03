@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//Dutch national flag algorithm
+
 int main(){
     int nums[11] = {0,1,1,0,1,2,1,2,0,0,0};
         int n = 11 ;
