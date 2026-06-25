@@ -94,11 +94,11 @@ void optimal_sol2(int nums1[] , int nums2[] , int n ,int m){
             }
             //arr2 and arr2
             else if(left >= n){
-                swapIfGreater(nums1 ,nums2 , left-n , right-n);
+                swapIfGreater(nums2 ,nums2 , left-n , right-n);
             }
             //arr1 and arr1
             else{
-                swapIfGreater(nums1 , nums2 , left , right);
+                swapIfGreater(nums1 , nums1 , left , right);
             }
 
             left++ , right++ ;
